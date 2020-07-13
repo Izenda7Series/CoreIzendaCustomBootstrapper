@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Izenda.BI.API">
+      <HintPath>Lib\Izenda.BI.API.dll</HintPath>
+    </Reference>
+    <Reference Include="Izenda.BI.Framework">
+      <HintPath>Lib\Izenda.BI.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy">
+      <HintPath>Lib\Nancy.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
