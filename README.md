@@ -21,11 +21,11 @@ Currently, this repo only shows how to remove items from filter field data.
 ## Installation
 
 1. Build the project and copy the DLL into the Izenda API directory along with the other Izenda API DLL files.
-  
    
 2. Add the following key/values to the appSettings.json (API) file to use the custom bootstrapper.
 ```
   "izenda.nancyfx.bootstrapper.dll": "IzendaCustomBootstrapper.dll",
   "izenda.nancyfx.bootstrapper.type": "IzendaCustomBootstrapper.CustomBootstrapper",
 ```
-4. Restart the API instance
+
+3. Restart the API instance
