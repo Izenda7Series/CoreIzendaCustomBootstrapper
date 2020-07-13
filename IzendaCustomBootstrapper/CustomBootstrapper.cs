@@ -64,6 +64,7 @@ namespace IzendaCustomBootstrapper
                 var ogFileName = headerValue.Contains("filename") ? headerValue.Substring(headerValue.LastIndexOf("filename=") + 9) : null;
                 if (!string.IsNullOrWhiteSpace(ogFileName))
                 {
+                    // Updates file name for export document's response
                     var lastIndex = ogFileName.LastIndexOf('.');
                     var newFileName = $"{ogFileName.Substring(0, lastIndex)}_{DateTime.Now.ToString("yyyy-MM-dd_HH-mm")}{ogFileName.Substring(lastIndex)}";
                     ctx.Response.AsAttachment(string.IsNullOrWhiteSpace(newFileName) ? ogFileName : newFileName);
