@@ -24,7 +24,7 @@ Currently, this repo only shows how to remove items from filter field data.
    
 2. Add the following key/values to the appSettings.json (API) file to use the custom bootstrapper.
 ```
-  "izenda.nancyfx.bootstrapper.dll": "IzendaCustomBootstrapper.dll",
+  "izenda.nancyfx.bootstrapper.file": "IzendaCustomBootstrapper.dll",
   "izenda.nancyfx.bootstrapper.type": "IzendaCustomBootstrapper.CustomBootstrapper",
 ```
 
