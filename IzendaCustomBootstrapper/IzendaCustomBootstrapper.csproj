@@ -11,6 +11,9 @@
     <Reference Include="Izenda.BI.Framework">
       <HintPath>Lib\Izenda.BI.Framework.dll</HintPath>
     </Reference>
+    <Reference Include="Izenda.BI.Utility">
+      <HintPath>Lib\Izenda.BI.Utility.dll</HintPath>
+    </Reference>
     <Reference Include="Nancy">
       <HintPath>Lib\Nancy.dll</HintPath>
     </Reference>
